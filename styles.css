@@ -6,3 +6,37 @@ body {
 img {
     width: 100px;
 }
+.hero{
+    background-image:url("images/bath-hero.jpeg");
+    background-repeat: no-repeat;
+    padding: 200px;
+    display: inline-block;
+    margin: none;
+}
+h1{
+    background: #274c77;
+    width: 350px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+h2{
+    background: #6096ba;
+    width: 350px;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 0%;
+    margin: 0%;
+}
+.activity{
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+.mid{
+    background-color: #a3cef1;
+    margin: 0px 225px 0px 225px;
+    padding-bottom: 50px;
+}
