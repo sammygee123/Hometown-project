@@ -11,6 +11,7 @@ body {
     height: 149px;
     width: 149px;
     border-radius: 100px;
+    border: #274c77 2px solid;
 }
 .activity-img{
     display: flex;
@@ -74,16 +75,19 @@ h1{
     padding-bottom: 50px;
 }
 #hol:hover{
-   width: 200px;   
+   width: 200px;
+   border: #274c77 2px solid;   
 }
 #roman:hover{
-    width: 200px;   
+    width: 200px;
+    border: #274c77 2px solid;   
  }
  #sally:hover{
-    width: 200px;   
+    width: 200px;  
+    border: #274c77 2px solid; 
  }
   #activity-description{
     margin: 15px;
     
+    
   }
-no commit this evening my heart is broken 
