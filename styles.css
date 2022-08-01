@@ -91,7 +91,7 @@ h3{
     margin: 15px; 
   }
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 600px) {
     .places{
         display: flex;
         justify-content: space-evenly;
