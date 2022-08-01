@@ -49,6 +49,7 @@ h3{
     width: 149px;
     border-radius: 100px;
     border: #274c77 2px solid;
+    transition: all .5s ease-in-out;
 }
 
 .activity-img{
@@ -56,6 +57,7 @@ h3{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    flex: 33%;
 }
     
 .places{
@@ -72,30 +74,20 @@ h3{
     padding-bottom: 50px;
 }
 
-#hol:hover{
-   width: 200px;
-   border: #274c77 2px solid;   
+.image:hover{
+   border: #274c77 2px solid; 
+   transform: scale(1.2);  
 }
-
-#roman:hover{
-    width: 200px;
-    border: #274c77 2px solid;   
- }
-
- #sally:hover{
-    width: 200px;  
-    border: #274c77 2px solid; 
- }
 
   .activity-description{
     margin: 15px; 
   }
 
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 768px) {
     .places{
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
         padding: 0%;
         margin: 10px 0px 0px 0px;
@@ -106,5 +98,4 @@ h3{
    .activity-description{
     margin: 25px 35px; 
     }
-    
-  
+}
