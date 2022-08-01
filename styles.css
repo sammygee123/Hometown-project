@@ -87,7 +87,7 @@ h3{
     border: #274c77 2px solid; 
  }
 
-  #activity-description{
+  .activity-description{
     margin: 15px; 
   }
 
@@ -103,5 +103,8 @@ h3{
    h1, h2, h3{
     font-size: 5vw;
    }
+   .activity-description{
+    margin: 25px 35px; 
     }
+    
   
