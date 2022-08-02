@@ -73,7 +73,7 @@ h3 {
 .activity {
     background-color: #a3cef1;
     width: 100%;
-    
+
 }
 
 .image:hover {
@@ -84,41 +84,49 @@ h3 {
 .activity-description {
     margin: 15px;
 }
-#back{
+
+#back {
     padding: 10px 0px 40px;
     background-color: #a3cef1;
 }
 
-.card{
-border-radius: 50px;
-max-width: 350px;
-max-height: 600px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background-image: linear-gradient(to bottom right, #a3cef1, #274c77);
-margin: auto;
-transition: all .5s ease-in-out;
+.card {
+    border-radius: 50px;
+    max-width: 350px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #a3cef1, #274c77);
+    margin: auto;
+    transition: all .5s ease-in-out;
 }
+
 .card:hover {
     border: #274c77 2px solid;
     transform: scale(1.1);
 }
-.avatar{
-max-width: 150px;
-border-radius: 10px;
+
+.avatar {
+    max-width: 150px;
+    border-radius: 10px;
 
 }
-.social{
+
+.social-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: black;
     transition: all .5s ease-in-out;
 }
+
+.social {
+    color: inherit;
+}
+
 .social:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 @media all and (max-width: 768px) {
