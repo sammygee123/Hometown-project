@@ -128,7 +128,22 @@ h3 {
 .social:hover {
     transform: scale(1.5);
 }
+.grid-container{
+    
+    margin: auto;
+}
+.grid-item{
+    max-width: 100px;
+    display: grid;
+    grid-template-rows: 30px 30px ;
+   
+    gap: 2px;
+    margin: auto;
+}
+.grid-image{
+    max-width: 100%;
 
+}
 @media all and (max-width: 768px) {
     .places {
         display: flex;
