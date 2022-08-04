@@ -129,16 +129,19 @@ h3 {
     transform: scale(1.5);
 }
 .grid-container{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
     
     margin: auto;
 }
 .grid-item{
-    max-width: 100px;
-    display: grid;
-    grid-template-rows: 30px 30px ;
    
-    gap: 2px;
-    margin: auto;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+   
 }
 .grid-image{
     max-width: 100%;
