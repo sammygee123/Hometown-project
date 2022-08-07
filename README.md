@@ -7,5 +7,11 @@
 - classes
 - flexbox
 - background-images
-- desires color palette
+- desired color palette
 - add google font
+- use grid
+- use hover 
+- make project mobile responsive
+- font awesome icons 
+- make social icons active links to my linkedin and github.
+
